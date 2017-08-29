@@ -1,0 +1,19 @@
+{
+    "name": "Project name",
+    "version": "1.0.0",
+    "date": "",
+    "author": "Styleguide author",
+    "kss": {
+        "source": [],
+        "options": {
+            "title": "Style guide",
+            "css": [
+                "template/assets/css/override.css"
+            ]
+        },
+        "kss-php-markup": {
+            "urlPrefix": "",
+            "cache": false
+        }
+    }
+}

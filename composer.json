@@ -1,0 +1,21 @@
+{
+  "name": "keverage/kss-php-template",
+  "description": "A template ready to use for generate style guide.",
+  "keywords": [
+    "kss",
+    "kss php",
+    "kss template",
+    "styleguide",
+    "css documentation"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Kévin Baubet",
+      "email": "contact@kevinbaubet.fr"
+    }
+  ],
+  "require": {
+    "keverage/kss-php-markup": "dev-master"
+  }
+}

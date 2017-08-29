@@ -1,0 +1,215 @@
+/* ==========================================================================
+   Layout
+   ========================================================================== */
+.styleguide--header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    background: #f2f2f2;
+    border-bottom: 1px solid #ddd;
+}
+.styleguide--header-inner {
+    padding: 10px 20px 10px 40px;
+    margin: 0 auto;
+    max-width: 1640px;
+    box-sizing: border-box;
+}
+.styleguide--header-title {
+    color: #666;
+    font-size: 1.5em;
+}
+.styleguide--header-infos {
+    float: right;
+    margin-top: -5px;
+}
+.styleguide--header-info {
+    display: block;
+    line-height: 1.2;
+    color: #888;
+    font-size: .8em;
+}
+.styleguide--wrapper {
+    margin: 80px auto 40px;
+    padding: 0 20px 0 250px;
+    max-width: 1640px;
+    box-sizing: border-box;
+}
+.styleguide-anchor {
+    display: block;
+    padding-bottom: 80px;
+}
+.is-firstLoad .styleguide-anchor:first-Of-type {
+    padding-bottom: 0;
+}
+
+/* ==========================================================================
+   Nav
+   ========================================================================== */
+.styleguide--nav-main {
+    position: fixed;
+    float: left;
+    margin-left: -250px;
+    width: 225px;
+}
+.styleguide--nav-main ul {
+    margin-left: 20px;
+}
+.styleguide--nav-main li {
+    margin: 0;
+    list-style: none;
+}
+.styleguide--nav-main li a {
+    display: block;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #666;
+    transition: .3s;
+}
+.styleguide--nav-main li a:hover {
+    background-color: #f2f2f2;
+}
+.styleguide--nav-main li a.is-active {
+    color: #000;
+    font-weight: bold;
+}
+.styleguide-clearfix:after {
+    content: "";
+    display: inline-block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+/* ==========================================================================
+   Styleguide part
+   ========================================================================== */
+.styleguide {
+    margin: 25px auto;
+    background: rgba(255, 255, 255, .5);
+    border: 1px solid #ddd;
+}
+.styleguide__header {
+    margin: -1px -1px 0;
+    padding: 6px;
+    color: #fff;
+    font-size: 1em;
+    background: #333;
+    border-top: 1px solid #000;
+}
+.styleguide__title {
+    float: left;
+    width: 80%;
+}
+.styleguide__filename {
+    float: right;
+    color: #999;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: none;
+}
+.styleguide__description {
+    padding: 10px 5px;
+    background: #f2f2f2;
+    border-bottom: 1px solid #ddd;
+}
+.styleguide__description p:first-child {
+    margin-top: 0;
+}
+.styleguide__description p:last-child {
+    margin-bottom: 0;
+}
+.styleguide__modifiers {
+    margin: 0 0 0 10px;
+}
+.styleguide__modifiers li {
+    margin-left: 0;
+    list-style-type: none;
+}
+.styleguide__modifier-name {
+    font-weight: bold;
+}
+.styleguide__parameters {
+    margin: 0 0 0 10px;
+}
+.styleguide__parameters li {
+    list-style-type: none;
+    margin-left: 0;
+}
+.styleguide__parameter-name {
+    font-weight: bold;
+}
+.styleguide__element {
+    position: relative;
+    padding: 20px;
+    padding-right: 10%;
+    overflow: auto;
+}
+.styleguide__element + .styleguide__element {
+    margin-top: -5px;
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+}
+.styleguide__element__modifier-label {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px 8px;
+    color: #999;
+    font-size: .8em;
+    background: #f9f9f9;
+    border: 1px solid #eee;
+    border-top: none;
+}
+.styleguide__element__modifier-label--extender:after {
+    content: "@";
+    vertical-align: middle;
+    padding-left: 6px;
+}
+.styleguide__html {
+    padding: 5px 10px;
+    background: #f8f3ed;
+    border-top: 1px solid #ddd;
+    overflow: auto;
+    clear: both;
+}
+.styleguide__code-toggle {
+    display: block;
+    padding: 0;
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+    background: none;
+    border: 0;
+}
+.styleguide__code-toggle:after {
+    content: "";
+    display: inline-block;
+    margin-left: 10px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 8.7px 5px 0 5px;
+    border-color: #000 transparent transparent;
+    transition: transform .3s;
+}
+.is-open .styleguide__code-toggle:after {
+    transform: rotateX(180deg);
+}
+.styleguide__code {
+    font-family: Monaco, monospace;
+    max-height: 0;
+    font-size: 0;
+    opacity: 0;
+    overflow: hidden;
+    visibility: hidden;
+    transition: max-height .3s, opacity .3s;
+}
+.is-open .styleguide__code {
+    max-height: 3000px;
+    font-size: 1em;
+    opacity: 1;
+    visibility: visible;
+}
