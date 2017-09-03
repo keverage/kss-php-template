@@ -4,9 +4,9 @@ A template ready to use for generate style guide from [Knyle Style Sheets PHP](h
 
 # Install
 
-1. Move the full folder in your styles directory
+1. Move the folder in your styles directory and rename it **styleguide**
 1. Run composer
-1. Configure **config.json file**
+1. Configure **config.json** file
 1. Access to **styleguide** directory in your navigator
 
 # Config
