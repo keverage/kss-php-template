@@ -4,14 +4,16 @@
     "date": "",
     "author": "Styleguide author",
     "kss": {
-        "source": [],
+        "source": [
+            "../starter-styles/common"
+        ],
         "options": {
             "title": "Style guide",
             "css": [
                 "template/assets/css/override.css"
             ]
         },
-        "kss-php-markup": {
+        "kssphpmarkup": {
             "urlPrefix": "",
             "cache": false
         }

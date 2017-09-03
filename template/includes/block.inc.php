@@ -48,7 +48,7 @@
 
     <?php if ($section->hasMarkup()): ?>
         <?php
-            $kss->markup = new \Kss\Markup($section, $package->kss->{'kss-php-markup'});
+            $kss->markup = new \Kss\Markup($section, $config->kss->kssphpmarkup);
 
             // Flushcache?
             if (isset($_GET['flushcache'])) {

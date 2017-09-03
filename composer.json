@@ -16,6 +16,6 @@
     }
   ],
   "require": {
-    "keverage/kss-php-markup": "dev-master"
+    "keverage/kss-php-markup": "1.*"
   }
 }

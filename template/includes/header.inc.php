@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="robots" content="noindex, nofollow" />
-    <title><?php echo $kss->options->title; ?> | <?php echo $package->name; ?></title>
+    <title><?php echo $kss->options->title; ?> | <?php echo $config->name; ?></title>
 
     <link rel="stylesheet" href="template/assets/css/styleguide.css" />
     <?php if (!empty($kss->options->css)): ?>
@@ -27,16 +27,16 @@
             <div class="styleguide--header-infos">
                 <?php $infos = array('name', 'version', 'author'); ?>
                 <?php foreach ($infos as $info): ?>
-                    <?php if (!empty($package->{$info})): ?>
+                    <?php if (!empty($config->{$info})): ?>
                         <span class="styleguide--header-info">
                             <?php if ($info === 'version'): ?>
-                                <?php echo $package->version; ?>
+                                <?php echo $config->version; ?>
 
-                                <?php if (!empty($package->date)): ?>
-                                    (<?php echo $package->date; ?>)
+                                <?php if (!empty($config->date)): ?>
+                                    (<?php echo $config->date; ?>)
                                 <?php endif; ?>
                             <?php else: ?>
-                                <?php echo htmlspecialchars($package->{$info}); ?>
+                                <?php echo htmlspecialchars($config->{$info}); ?>
                             <?php endif; ?>
                         </span>
                     <?php endif; ?>

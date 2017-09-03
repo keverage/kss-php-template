@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "84e46545a0ee853c475e77c31c516c18",
+    "content-hash": "838006f1bc5f38ce91b1e4c970105107",
     "packages": [
         {
             "name": "keverage/kss-php-markup",
-            "version": "dev-master",
+            "version": "v1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/keverage/kss-php-markup.git",
-                "reference": "711a13f392abf719c7b6107aecc57f5616559199"
+                "reference": "31200157af8ac6a538468e94442acf0c228f6dac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/keverage/kss-php-markup/zipball/711a13f392abf719c7b6107aecc57f5616559199",
-                "reference": "711a13f392abf719c7b6107aecc57f5616559199",
+                "url": "https://api.github.com/repos/keverage/kss-php-markup/zipball/31200157af8ac6a538468e94442acf0c228f6dac",
+                "reference": "31200157af8ac6a538468e94442acf0c228f6dac",
                 "shasum": ""
             },
             "require": {
@@ -47,7 +47,7 @@
                 "kss php",
                 "styleguide"
             ],
-            "time": "2017-08-29 19:36:51"
+            "time": "2017-08-30T18:53:57+00:00"
         },
         {
             "name": "kss-php/kss-php",
@@ -243,9 +243,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "keverage/kss-php-markup": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
