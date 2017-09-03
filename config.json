@@ -5,11 +5,12 @@
     "author": "Styleguide author",
     "kss": {
         "source": [
-            "../starter-styles/common"
+
         ],
         "options": {
             "title": "Style guide",
             "css": [
+
                 "template/assets/css/override.css"
             ]
         },

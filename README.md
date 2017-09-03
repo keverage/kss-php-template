@@ -15,12 +15,12 @@ The template does not work by default. You must do edit **config.json** file:
     "author": "Styleguide author",
     "kss": {
         "source": [
-            // Path to your styles directory eg: "../styles/modules"
+            // Add relative path to your styles directory, e.g. "../styles/modules"
         ],
         "options": {
             "title": "Style guide",
             "css": [
-                // Add css from your theme
+                // Add css from your theme, e.g. "../styles/dist/theme.css"
                 "template/assets/css/override.css"
             ]
         },
