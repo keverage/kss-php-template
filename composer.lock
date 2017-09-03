@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "838006f1bc5f38ce91b1e4c970105107",
+    "content-hash": "6e657b72be8ae9ec21a5c7963011f55e",
     "packages": [
         {
             "name": "keverage/kss-php-markup",
