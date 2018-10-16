@@ -1,23 +1,23 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6e657b72be8ae9ec21a5c7963011f55e",
+    "content-hash": "351ffd02f0a9cac8cde261327d45539d",
     "packages": [
         {
-            "name": "keverage/kss-php-markup",
-            "version": "v1.0.0",
+            "name": "kevinbaubet/kss-php-markup",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/keverage/kss-php-markup.git",
-                "reference": "31200157af8ac6a538468e94442acf0c228f6dac"
+                "url": "https://github.com/kevinbaubet/kss-php-markup.git",
+                "reference": "41439701881b148f0d6058467be3877e5bd9a4cc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/keverage/kss-php-markup/zipball/31200157af8ac6a538468e94442acf0c228f6dac",
-                "reference": "31200157af8ac6a538468e94442acf0c228f6dac",
+                "url": "https://api.github.com/repos/kevinbaubet/kss-php-markup/zipball/41439701881b148f0d6058467be3877e5bd9a4cc",
+                "reference": "41439701881b148f0d6058467be3877e5bd9a4cc",
                 "shasum": ""
             },
             "require": {
@@ -47,7 +47,7 @@
                 "kss php",
                 "styleguide"
             ],
-            "time": "2017-08-30T18:53:57+00:00"
+            "time": "2018-10-16T12:08:20+00:00"
         },
         {
             "name": "kss-php/kss-php",
@@ -192,16 +192,16 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v3.3.8",
+            "version": "v3.4.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "b2260dbc80f3c4198f903215f91a1ac7fe9fe09e"
+                "reference": "54ba444dddc5bd5708a34bd095ea67c6eb54644d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/b2260dbc80f3c4198f903215f91a1ac7fe9fe09e",
-                "reference": "b2260dbc80f3c4198f903215f91a1ac7fe9fe09e",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/54ba444dddc5bd5708a34bd095ea67c6eb54644d",
+                "reference": "54ba444dddc5bd5708a34bd095ea67c6eb54644d",
                 "shasum": ""
             },
             "require": {
@@ -210,7 +210,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.3-dev"
+                    "dev-master": "3.4-dev"
                 }
             },
             "autoload": {
@@ -237,7 +237,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2017-07-29T21:54:42+00:00"
+            "time": "2018-10-03T08:46:40+00:00"
         }
     ],
     "packages-dev": [],
